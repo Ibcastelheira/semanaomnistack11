@@ -4,11 +4,9 @@ import { View, Image, TouchableOpacity, Text, Linking } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import * as MailComposer from 'expo-mail-composer';
 
+import logoImg from 'C:/Users/Igor/Documents/Omnistack/mobile/src/assets/logo.png';
 
 import styles from './styles';
-
-import logoImg from '../../assets/logo.png';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function Detail() {
 

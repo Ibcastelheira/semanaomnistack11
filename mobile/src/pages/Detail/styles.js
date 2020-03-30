@@ -1,4 +1,4 @@
-
+import { Stylesheet } from 'react-native';
 
     export default StyleSheet.create({
         container:{ 
@@ -70,7 +70,7 @@
         },
 
         actionText: {
-            color: #FFF,
+            color: '#FFF',
             fontSize: 15,
             fontWeight: 'bold'
         }
